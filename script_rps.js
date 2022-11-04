@@ -16,11 +16,8 @@
     
   let playerRoundWin = "Player wins this round!"
   let computerRoundWin = "Computer wins this round!"
-  let draw = "Draw!"
-  let playerWin = "Player wins the game! Congratulations!"
-  let computerWin = "Computer wins the game! Congratulations!"   
+  let draw = "Draw!"  
     
-
   function playRound(playerSelection , computerSelection) {
 
     if (playerSelection === "scissors" && computerSelection === "paper") {
@@ -72,15 +69,8 @@
         playerScore && computerScore + 0;
       }
 
-      if (playerScore === 3) {
-        console.log(playerWin);
-        return;
-      }
 
-      if (computerScore === 3) {
-        console.log(computerWin);
-        return;
-      }
+      
       }
 
     
