@@ -14,6 +14,7 @@ function reset () {
   document.getElementById("paper").disabled = false;
   document.getElementById("scissors").disabled = false;
   score.textContent = "Player Score: 0 Computer Score: 0 ";
+  round.textContent = ""
   playerScore = 0
   computerScore = 0
   
